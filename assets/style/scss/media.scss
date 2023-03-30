@@ -94,7 +94,7 @@
             .intro__link {
                 font-size: 2.4375rem;
                 color: $white;
-                border: 0.1875rem solid $white;
+                border: 2px solid $white;
                 border-radius: 0.75rem;
                 padding: 2.8125rem 5.625rem;
             }
@@ -106,28 +106,23 @@
         font-size: 11px;
     }
 }
-@media (max-width: 660px) {
+@media (max-width: 450px) {
+    html, body {
+        font-size: 10px;
+    }
+}
+@media (max-width: 400px) {
     html, body {
         font-size: 9px;
     }
 }
-@media (max-width: 560px) {
-    html, body {
-        font-size: 7px;
-    }
-}
-@media (max-width: 410px) {
-    html, body {
-        font-size: 6px;
-    }
-}
 @media (max-width: 350px) {
     html, body {
-        font-size: 5px;
+        font-size: 8px;
     }
 }
 @media (max-width: 300px) {
     html, body {
-        font-size: 4px;
+        font-size: 7px;
     }
 }
