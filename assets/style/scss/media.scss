@@ -59,12 +59,12 @@
     // Burger
     .burger {
         display: block;
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         position: relative;
     }
     .burger span {
-        width: 5rem;
+        width: 4rem;
         height: 0.4rem;
         background-color: $white;
         position: absolute;
@@ -92,11 +92,11 @@
             padding-top: 34rem;
             padding-bottom: 9.75rem;
             .intro__link {
-                font-size: 2.4375rem;
+                font-size: 2.1125rem;
                 color: $white;
-                border: 2px solid $white;
+                border: 0.24375rem solid $white;
                 border-radius: 0.75rem;
-                padding: 2.8125rem 5.625rem;
+                padding: 2.4375rem 4.875rem;
             }
         }
     }

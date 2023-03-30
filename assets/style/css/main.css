@@ -82,9 +82,6 @@ html, body {
   -webkit-transition: ease 0.2s;
   transition: ease 0.2s;
 }
-.intro .intro__inner .intro__link:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-}
 
 .feature {
   text-align: center;
@@ -291,12 +288,12 @@ html, body {
   }
   .burger {
     display: block;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     position: relative;
   }
   .burger span {
-    width: 5rem;
+    width: 4rem;
     height: 0.4rem;
     background-color: #ffffff;
     position: absolute;
@@ -326,11 +323,11 @@ html, body {
     padding-bottom: 9.75rem;
   }
   .intro .intro__inner .intro__link {
-    font-size: 2.4375rem;
+    font-size: 2.1125rem;
     color: #ffffff;
-    border: 2px solid #ffffff;
+    border: 0.24375rem solid #ffffff;
     border-radius: 0.75rem;
-    padding: 2.8125rem 5.625rem;
+    padding: 2.4375rem 4.875rem;
   }
 }
 @media (max-width: 800px) {
